@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,800;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+:root {
+    --jew-blue: #33A6F2;
+    --jew-lighblue: #74C6FD;
+    --jew-darkblue: #00406A; 
+    --dark-color: #101010;
+    --simple-grey: #F2F2F2;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+#display {
+    margin: 50px;
+
+    width: 750px;
+    height: 300px;
+    border-radius: 40px;
+
+    display: flex;
+    justify-content: center;
+
+    background-color: #addeff;
+}
+
+/* DIV IMAGE + TEXT */
+.image-text {
+    padding: 70px;
+    height: 150px;
+    
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: right;
+}
+
+/* SALT AND PEPPER IMAGE */
+
+.image {
+background-image: url(/img/logo.svg) no-repeat;
+
+display: flex;
+width: 150px;
+height: 150px;
+
+padding-right: 40px;
+
+justify-content: center;
+
+background-position: bottom;
+
+}
+
+/* TEXT */
+
+.text {
+    width: 400px;
+    height: 150px;
+}
+
+.text h1 {
+    font-size: 35px;
+    font-family: 'Playfair Display', serif;
+    color: #19192b;
+}
+
+.text p {
+    padding-top: 15px;
+    font-size: 20px;
+    font-weight: lighter;
+    font-family: "Lato";
+
+    color: var(--dark-color);
+
+}
+
+/* GET STARTED BUTTON */
+.button {
+    padding-top: 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.text a {
+    display: flex;
+    align-content: right;
+}
+
+.text #gs-button {
+    background-color: #99d6ff;
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+
+    width: 130px;
+    height: 40px;
+    border-radius: 3px;
+}
+
+.text #gs-button:hover {
+    background-color: var(--jew-lighblue);
+}
+
+.text #gs-button span {
+    color: var(--dark-color);
+    font-size: 13px;
+    font-weight: bold;
+    font-family: "Lato";
+    text-align: center;
+}
+
+/* MOST VIEWED  */
+h2 {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-family: "Lato";
+    padding-bottom: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+/* CARDS CSS */
+.cards {
+
+    max-width: 1000px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+    gap: 20px;
+    
+  }
+  
+  .card {
+  
+    width: 300px;
+    height: 300px;
+  }
+  
+  .card img {
+  
+    width: 300px;
+    height: 140px;
+    border-radius: 15px;
+  }
+  
+  .card .content {
+  
+    margin-top: 20px;
+  }
+  
+  .card .content h3 {
+  
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+  }
+  
+  .card .content p {
+  
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    color: #777777;
+  }
+
+footer {
+    color: white;
+    background-color: #282A34;
+    text-align: center;
+    padding : 20px;
+    font-family: "Lato";
+
+  }
+
+  footer strong {
+    font-family: 'Playfair Display', serif;
+  }

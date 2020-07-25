@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,800;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+:root {
+    --jew-blue: #33A6F2;
+    --jew-lighblue: #74C6FD;
+    --jew-darkblue: #00406A; 
+    --dark-color: #101010;
+    --simple-grey: #F2F2F2;
+}
+
+/* DISPLAY IMAGE */
+.displayimg img {
+    width: 100%;
+}
+
+ #about {
+     padding: 50px;
+    font-family: 'Lato', sans-serif;
+}
+
+#about h1 {
+    font-size: 20px;
+}
+
+#about p {
+    padding-top: 10px;
+    padding-bottom: 30px;
+    color: #7a7a7a;
+}
+
+#about strong { 
+    font-family: 'Playfair Display', serif;
+}
